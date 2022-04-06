@@ -1,0 +1,26 @@
+.pageContent{
+    padding: 2rem;
+}
+
+.pageFilter{
+    margin-top: 1rem;
+}
+
+.filterHr{
+    width: 10%
+}
+
+.pageBody {
+    margin-top: 1rem;
+}
+.resultDiv{
+    margin-top: 2rem;
+}
+ #tooltip {
+    background: #333;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+}
