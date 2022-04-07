@@ -13,3 +13,10 @@ A continuacion se listan las configuraciones del aplicativo referentes a la inte
 - integration.url: Define la URL y endpoint del metodo de la API a consumir.
 - integration.issuer: Define el valor que se utilizara en el Claim 'Issuer' para la generacion del Token.
 - integration.secret: Define el valor del Secret utilizado para generar la firma en la generacion del Token.
+
+## Changelog
+- 0.0.2
+ - Se completa test de integracion
+ - FIX de comentarios de metodos.
+- 0.0.1
+ - Commit inicial con la funcionalidad base del aplicativo

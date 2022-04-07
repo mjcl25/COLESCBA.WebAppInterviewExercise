@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>ar.com.mjcl</groupId>
 	<artifactId>WebAppInterviewExercise</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>WebAppInterviewExercise</name>
 	<description>Ejercicio de entrevista para Colegio de Escribanos</description>
 	<properties>

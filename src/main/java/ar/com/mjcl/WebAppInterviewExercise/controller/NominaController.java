@@ -41,6 +41,11 @@ public class NominaController {
         return new RedirectView("/");
     }
 
+    /**
+     * Valida la respuesta del WebService y agrega al Modelo los datos necesarios para que Thymeleaf pueda mostrar el resultado
+     * @param model Modelo de datos utilizado por Thymeleaf
+     * @param ir Objeto que modela la respuesta de integracion.
+     */
     private void addResponseToModel(final Model model, final IntegrationResponse ir) {
         if(ir.getResponseCode() == 200) {
             model.addAttribute("results", ir.getNominaList());

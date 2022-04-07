@@ -24,7 +24,7 @@ public class IntegrationService {
     private RestTemplate restTemplate;
 
     /**
-     * Genera el token para la autentificacion contra el WebService utilizando la configuracion de claims.
+     * Genera el token para la autentificacion contra el WebService utilizando la configuracion de generacion de token.
      * @return token en formato String.
      */
     public String getToken(){
@@ -47,7 +47,7 @@ public class IntegrationService {
     }
 
     /**
-     * Realiza la integracion con el WebService solicitado para buscar las nominas del CUIT recibido.
+     * Realiza la integracion con el WebService solicitado para buscar los datos del CUIT recibido
      * @param cuit valor de CUIT a utilizar en la integracion
      * @return Objeto IntegrationResponse que contiene la respuesta, mensaje y listado de datos de nomina de la integracion.
      */
